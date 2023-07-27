@@ -53,12 +53,12 @@ var tablinks = document.getElementsByClassName("tab-links");
         }
 
 /*-------about-----*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
-        let menuIcon = document.querySelector('#menu-icon');
-        let navbar = document.querySelector('.navbar');
         
-        menuIcon.onclick = () => {
-          menuIcon.classList.toggle('fa-solid fa-x');
-          navbar.classList.toggle('.active');
-        
-        };
+menuIcon.addEventListener('click',() => {
+  menuIcon.classList.toggle('fa-solid');
+  menuIcon.classList.toggle('fa-x');
+  navbar.classList.toggle('.active');
+})
