@@ -25,6 +25,9 @@
 
     let header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 100);
+
+    menuIcon.classList.remove('fa-x');
+    navbar.classList.remove('active');
   }
 
 
@@ -32,10 +35,6 @@
 
    
   
- 
-
-
-
 /*-------about-----*/
 var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
@@ -58,7 +57,6 @@ let navbar = document.querySelector('.navbar');
 
         
 menuIcon.addEventListener('click',() => {
-  menuIcon.classList.toggle('fa-solid');
   menuIcon.classList.toggle('fa-x');
-  navbar.classList.toggle('.active');
+  navbar.classList.toggle('active');
 })
