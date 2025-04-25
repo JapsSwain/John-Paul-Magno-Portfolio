@@ -12,11 +12,11 @@
 }
 
 :root{
-    --bg-color: #8e8e8f;
+    --bg-color: #1560bd;
     --second-bg-color: hwb(0 6% 94% / 0.91);
     --text-color: #000000;
     --main-color: #fff;
-    --another-color: #535252;
+    --another-color: #191970;
 }
 
 
